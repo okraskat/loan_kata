@@ -1,0 +1,13 @@
+# Loan kata
+
+# Running project
+- with Maven: mvn spring-boot:run
+- from IDE by starting Application class
+
+# Running integration tests - enable integration-tests profile
+- with Maven: mvn test -Pintegration-tests
+- from IDE - run tests in java test source root folder
+
+# Before running on production
+- provide rest controller security
+- simplify Spring configuration (there are lot of unused dependencies while using autoconfiguration)
